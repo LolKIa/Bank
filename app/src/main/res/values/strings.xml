@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Bank</string>
+    <string name="str">WorldSkills Bank</string>
+    <string name="str1">Отделения и банкоматы</string>
+    <string name="str2">Курсы валют</string>
+    <string name="val1">USD</string>
+    <string name="val2">EUR</string>
+    <string name="date">31.12.2018</string>
+    <string name="val1_1">65.2</string>
+    <string name="val2_2">75.14</string>
+    <string name="btn">ВОЙТИ</string>
+</resources>
