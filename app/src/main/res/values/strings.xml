@@ -9,4 +9,10 @@
     <string name="val1_1">65.2</string>
     <string name="val2_2">75.14</string>
     <string name="btn">ВОЙТИ</string>
+    <string name="message">Авторизация</string>
+    <string name="tint">Введите Ваш логин и пароль</string>
+    <string name="ok">OK</string>
+    <string name="otm">Отмена</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
 </resources>
