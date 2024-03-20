@@ -14,6 +14,7 @@ import android.view.animation.LinearInterpolator;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     private Button btnV;
@@ -38,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void onClick2(View v) {
-        Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+        Intent intent = new Intent(MainActivity.this, MainActivity3.class);
         startActivity(intent);
     }
 
@@ -51,13 +52,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         LinearLayout layout = new LinearLayout(this);
         layout.setOrientation(LinearLayout.VERTICAL);
 
-        final EditText editText = new EditText(this);
-        editText.setText(R.string.login);
-        layout.addView(editText);
+        final EditText username = new EditText(this);
+        username.setHint(R.string.login);
+        layout.addView(username);
 
-        final EditText editText2 = new EditText(this);
-        editText2.setHint(R.string.password);
-        layout.addView(editText2);
+        final EditText password = new EditText(this);
+        password.setHint(R.string.password);
+        layout.addView(password);
 
 
         builder.setView(layout);
@@ -67,8 +68,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         builder.setNegativeButton(R.string.ok, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
-                startActivity(intent);
+                if (username.getText().toString().equals("admin") && password.getText().toString().equals("admin")) {
+                    Toast.makeText(getApplicationContext(), "Вход выполнен!",Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                    startActivity(intent);}
+                else {
+                        Toast.makeText(getApplicationContext(), "Неправильные данные!",Toast.LENGTH_SHORT).show();
+                }
             }
         });
         builder.show();

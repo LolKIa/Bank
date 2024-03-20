@@ -15,4 +15,11 @@
     <string name="otm">Отмена</string>
     <string name="login">Логин</string>
     <string name="password">Пароль</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="usaUSD">USD</string>
+    <string name="usa">American\ndollar</string>
+
+    <string name="flag">flag</string>
 </resources>
