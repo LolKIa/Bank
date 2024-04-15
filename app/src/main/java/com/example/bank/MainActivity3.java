@@ -20,6 +20,33 @@ public class MainActivity3 extends AppCompatActivity {
         list.clear();
 
         list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
+        list.add(new DataFlags(R.drawable.us, R.string.usa, R.string.usaUSD));
 
         MyListAdapter myListAdaptery = new MyListAdapter(this, list);
         listView.setAdapter(myListAdaptery);

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@drawable/listview_selector">
+
+    <TextView
+        android:id="@+id/dd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:singleLine="false"
+        android:text="@string/dd1"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/dd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="26dp"
+        android:gravity="center"
+        android:singleLine="false"
+        android:text="@string/dd2"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/dd3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="26dp"
+        android:textColor="@color/green"
+        android:text="@string/dd3"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:id="@+id/dd4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/black"
+        android:text="@string/dd4"
+        android:textSize="12sp" />
+
+</RelativeLayout>

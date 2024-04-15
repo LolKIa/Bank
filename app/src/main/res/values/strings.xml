@@ -19,7 +19,18 @@
     <string name="action_settings">Settings</string>
 
     <string name="usaUSD">USD</string>
-    <string name="usa">American\ndollar</string>
+    <string name="usa">Американский доллар</string>
+    <string name="shop_sell">64,95</string>
+
+    <string name="dd1">Москва, ул. Вавилова, д. 7</string>
+    <string name="dd2">Банкомат</string>
+    <string name="dd3">Работает</string>
+    <string name="dd4">Часы работы 00:00-00:00</string>
+
+    <string name="main1">Отделения и банкоматы</string>
+    <string name="main2">31.12.2018</string>
+    <string name="main21">Покупка</string>
+    <string name="main22">Продажа</string>
 
     <string name="flag">flag</string>
 </resources>

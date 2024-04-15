@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onClick(DialogInterface dialog, int which) {
                 if (username.getText().toString().equals("admin") && password.getText().toString().equals("admin")) {
                     Toast.makeText(getApplicationContext(), "Вход выполнен!",Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                    Intent intent = new Intent(MainActivity.this, MainActivity4.class);
                     startActivity(intent);}
                 else {
                         Toast.makeText(getApplicationContext(), "Неправильные данные!",Toast.LENGTH_SHORT).show();
